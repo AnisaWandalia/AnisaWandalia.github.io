@@ -1353,6 +1353,18 @@ section,
   transition: all 0.3s;
 }
 
+.skills .badge-text {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--accent-color), color-mix(in srgb, var(--accent-color), var(--heading-color) 20%));
+  color: var(--contrast-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 991.98px) {
   .skills .skills-category {
     margin-bottom: 30px;
@@ -2453,7 +2465,7 @@ section,
   font-weight: 700;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 95%);
 }
 
 .service-details .service-info .info-item {
@@ -2545,6 +2557,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+  Add your styles here
+} */
