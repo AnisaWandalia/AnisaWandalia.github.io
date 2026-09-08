@@ -23,7 +23,7 @@
   --stripe-color: #eeeeee; /* Background color for the entire website, including individual sections */
   --default-color: #000000; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #000000; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #81ae81; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #809fc2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #fef5e8cc; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #f2f2f2; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 } 
@@ -144,7 +144,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #81ae81;
+  --background-color: #809fc2;
   --contrast-color: #444444;
   color: var(--default-color);
   position: fixed;
